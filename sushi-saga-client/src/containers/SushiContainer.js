@@ -9,7 +9,6 @@ const SushiContainer = (props) => {
 				{
 					props.sushis.map((sushi) => {
 						return <Sushi sushi={sushi} 
-													eat={props.eat} 
 													taken={props.eaten.includes(sushi)}/>
 					})
 				}
